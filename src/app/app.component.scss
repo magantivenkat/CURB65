@@ -1,0 +1,103 @@
+.cpl-5 {
+    padding-left: 20px;
+    }
+
+   
+    table {
+        display: table;
+        border-collapse: separate;
+        border-spacing: 2px;
+        border-color: grey;
+    }
+    th {
+        display: table-cell;
+        vertical-align: inherit;
+        font-weight: bold;
+        text-align: -internal-center;
+    }
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+
+    #parentContainer {
+        width: 100%;
+        max-width: 700px;
+        margin: 20px auto;
+        border: 1px solid #f4f4f4;
+        border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+        font-family: arial;
+        font-size: 16px;
+    }
+    html {
+        display: block;
+        color: -internal-root-color;
+    }
+
+    body {
+        display: block;
+        margin: 8px;
+    }
+
+
+    #parentContainer table {
+        width: 100%;
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    #parentContainer table tr td {
+        border-bottom: 1px solid #f4f4f4;
+        padding: 16px;
+    }
+
+    #parentContainer table tr td .switch .slider.round {
+        border-radius: 34px;
+    }
+    #parentContainer table tr td .switch .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    #parentContainer .td{
+    width: 80%;
+    }
+
+    #parentContainer #diagnosesContainer {
+        padding: 16px;
+        background-color: #2196f3;
+        color: #fff;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    #parentContainer #diagnosesContainer .diagnoses.active {
+        display: block;
+    }
+    #parentContainer #diagnosesContainer .diagnoses {
+        display: none;
+    }
+    p {
+        display: block;
+        margin-block-start: 1em !important;
+        margin-block-end: 1em !important;
+        margin-inline-start: 0px !important;
+        margin-inline-end: 0px !important;
+    }
+
+    #diagnosesContainer {
+        padding: 16px;
+        background-color: #2196f3;
+        color: #fff;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
